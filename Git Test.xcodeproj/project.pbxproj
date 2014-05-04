@@ -21,6 +21,7 @@
 		35F8A8AE19169B8400A7E01A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35F8A89019169B8400A7E01A /* UIKit.framework */; };
 		35F8A8B619169B8400A7E01A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 35F8A8B419169B8400A7E01A /* InfoPlist.strings */; };
 		35F8A8B819169B8400A7E01A /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F8A8B719169B8400A7E01A /* Git_TestTests.m */; };
+		35F8A8C31916A32800A7E01A /* PFLTestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F8A8C21916A32800A7E01A /* PFLTestClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		35F8A8B319169B8400A7E01A /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		35F8A8B519169B8400A7E01A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		35F8A8B719169B8400A7E01A /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		35F8A8C11916A32800A7E01A /* PFLTestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PFLTestClass.h; sourceTree = "<group>"; };
+		35F8A8C21916A32800A7E01A /* PFLTestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PFLTestClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		35F8A88019169B8400A7E01A = {
 			isa = PBXGroup;
 			children = (
+				35F8A8C11916A32800A7E01A /* PFLTestClass.h */,
+				35F8A8C21916A32800A7E01A /* PFLTestClass.m */,
 				35F8A89219169B8400A7E01A /* Git Test */,
 				35F8A8B119169B8400A7E01A /* Git TestTests */,
 				35F8A88B19169B8400A7E01A /* Frameworks */,
@@ -251,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				35F8A8A319169B8400A7E01A /* PFLViewController.m in Sources */,
+				35F8A8C31916A32800A7E01A /* PFLTestClass.m in Sources */,
 				35F8A89919169B8400A7E01A /* main.m in Sources */,
 				35F8A89D19169B8400A7E01A /* PFLAppDelegate.m in Sources */,
 			);
